@@ -2,8 +2,11 @@ import sqlite3
 import streamlit as st
 from pathlib import Path
 
-_DB_PATH = str(Path(__file__).parent.parent.parent / "data.db")
+#_DB_PATH = str(Path(__file__).parent.parent.parent / "data.db")
+import tempfile
 
+# Force the database file to be created in a writable system directory
+_DB_PATH = str(Path(tempfile.gettempdir()) / "data.db")
 
 @st.cache_resource
 def _get_connection() -> sqlite3.Connection:
