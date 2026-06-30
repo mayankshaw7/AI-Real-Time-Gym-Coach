@@ -173,7 +173,7 @@ streamlit run main.py
 
 🚀 Try the application live here:
 
-👉 https://realtime-gym-trainer.streamlit.app/
+👉 https://ai-real-time-gym-coach-mayank-shaw.streamlit.app/
 
 ---
 
@@ -299,10 +299,10 @@ libglib2.0-0
 
 # 👨‍💻 Author
 
-### Nakul Rajput
+### Mayank Shaw
 
 GitHub:  
-https://github.com/nakulcharak002
+https://github.com/mayankshaw7
 
 ---
 
